@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=La+Belle+Aurore&family=Lobster&family=Montserrat:ital,wght@0,300;1,400&family=Rubik+Spray+Paint&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply max-w-md rounded overflow-hidden shadow-lg p-10;
+}
+
+.info {
+    @apply font-bold text-xl mb-2;
+}
+
+.font-bebas {
+   font-family:  'Bebas Neue', 'sans-serif';
+}
